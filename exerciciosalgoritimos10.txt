@@ -1,0 +1,40 @@
+10. Proponha um algoritmo, o qual lê o salário atual de um funcionário e calcula e
+exibe o novo salário, baseado nos reajustes especificados abaixo:
+ Se salário atual < R$ 600,00, reajuste de 18%.
+ Se R$ 600,00 <= salário atual < R$ 900,00, reajuste de 13%.
+ Se R$ 900,00 <= salário atual < R$ 2000,00, reajuste de 10%.
+ Se salário atual >= R$ 2000,00 reajuste de 6%.
+
+algoritmo "salario"
+
+var 
+	salarioatual, novosalario : real
+	
+inicio
+	
+	leia (salarioatual)
+
+	se (salarioatual <  600 ) entao
+		novosalario <- salarioatual*18/100+salarioatual
+
+	senao 
+		se (salariatual >= 600 e salarioatual <	900) entao 
+			novosalario <- salarioatual*13/100+salarioatual]
+			
+		senao
+			se (salarioatual >=900 e salarioatual <=2000) entao
+				novosalario <- salarioatual*10/100+salariatual
+				
+			senao
+				se (salariatual >= 2000) entao
+					novosalario <- salarioatual*6/100+salariatual
+				
+				fimse
+			fimse	
+			
+		fimse
+	fimse	
+
+	escreve ("novosalario")
+	
+fim

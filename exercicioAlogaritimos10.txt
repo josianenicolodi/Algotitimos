@@ -1,0 +1,15 @@
+1. Escreva um algoritmo em pseudocódigo que leia um número e escreva na tela: o
+número lido, seu antecessor e seu sucessor.
+
+algoritimo "antecessorSucessor"
+var 
+	n1
+	
+inicio 
+	
+	leia (n1)
+	escreve (n1)
+	escreve (sucessor n1+)
+	escreve (antecessor n1-1)
+	
+fim

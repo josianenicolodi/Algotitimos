@@ -1,0 +1,10 @@
+Pista ( marcações, Cones, )
+Stadio 
+Atletas ( barba, cabelos, peles, olhos)
+Cones Indicando Numeração de Lane
+Linha Largada ( Linha , e objetos utilizados na largada)
+Linha Chegada
+Podium
+Trofel
+Barreira
+Bastoes corrida de revesamento

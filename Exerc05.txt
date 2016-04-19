@@ -1,0 +1,43 @@
+Algoritmo "Exerc04"
+var
+	num1, num2, num3 , soma , produto, maior, menor : inteiros
+	
+Inicio
+	Leia(num1)
+	Leia(num2)
+	Leia(num3)
+	
+	soma <- num1 + num2 + num3
+	produto <- num1 + num2 + num3
+	
+	se num1 > num2 entao
+		maior <- num1
+		menor <- num2
+	senao 
+		maior <- num2
+		menor <- num1
+	fimse
+	
+	se maior < num3 entao
+		maior <- num3
+	fimse
+	
+	se menor < num3 entao
+		menor <- num3
+	fimse
+		
+	fimse
+	
+	escreve("Soma é: ",soma)
+	escreve("Produto é: ",produto)
+	escreve("Maior é: ",maior)
+	escreve("Menor é: ",menor)
+	
+Fim	
+		
+		
+		
+		
+		
+		1 2 3
+		

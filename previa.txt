@@ -1,0 +1,88 @@
+
+
+Algoritmo "Aluno"
+var
+	n1, n2, n3 , media: real
+	faltas, valido : inteiro
+	
+Inicio
+	
+	valido <- 0 
+	enquanto valido = 0 faca
+		escreve ("Digite a nota 1: ")
+		leia(n1)
+		
+		se n1 < 0 ou n1 > 10 entao
+			escreva("nota invalida")
+		senao
+			valido <- 1
+		fimse		
+	fimenquanto
+	
+	valido <- 0 
+	enquanto valido = 0 faca
+		escreve ("Digite a nota 2: ")
+		leia(n2)
+		
+		se n2 < 0 ou n2 > 10 entao
+			escreva("nota invalida")
+		senao
+			valido <- 1
+		fimse		
+	fimenquanto
+	
+	valido <- 0 
+	enquanto valido = 0 faca
+		escreve ("Digite a nota 3: ")
+		leia(n3)
+		
+		se n3 < 0 ou n3 > 10 entao
+			escreva("nota invalida")
+		senao
+			valido <- 1
+		fimse		
+	fimenquanto
+	
+	valido <- 0 
+	enquanto valido = 0 faca
+		escreve ("Digite quantidade de faltas: ")
+		leia(faltas)
+		
+		se faca < 0 ou faltas > 20 entao
+			escreva("valor invalido")
+		senao
+			valido <- 1
+		fimse		
+	fimenquanto
+	
+	media <- (n1 + n2 + n3) / 3
+	
+		
+	escreva("media do aluno: ",media)
+	
+	se media < 5.0 ou faltas < 15  entao
+		escreva ("Insuficiente")
+	senao
+		se media <= 5.0 ou media > 7.0 entao
+			escreva("Regular")
+		senao
+			se media <= 7.0 ou media > 9.0 entao
+				escreva("Bom")
+			senao
+				se media > 9 entao
+					escreva("Otimo")
+				fimse
+			fimse
+		fimse
+	fimse
+	
+			
+	
+Fim	
+		
+		
+		
+		
+		
+
+		

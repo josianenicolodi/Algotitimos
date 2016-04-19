@@ -1,0 +1,13 @@
+2. Escreva um algoritmo em pseudocódigo que leia um número e imprima o seu
+quadrado.
+
+algoritimo "quadrado"
+var 
+	n1
+inicio
+
+	leia (n1)
+	escreva (n1)
+	escreva ("quadrado:",n1*n1)
+	
+fim
